@@ -14,3 +14,12 @@ NodePort. Сделайте скриншоты вывода команд helm:
 2. Скриншоты вывода команд Helm:
 • Список приложений Helm.
 • Описание вашего чарта через команды Helm.
+
+
+
+
+$ helm install helm-neoflex-javaapp .
+[neoflex@main helm-javaapp]$ helm list
+NAME                    NAMESPACE       REVISION        UPDATED                                 STATUS          CHART                           APP VERSION
+helm-neoflex-javaapp    default         1               2026-04-07 22:44:43.313814679 +0400 +04 deployed        helm-neoflex-javaapp-0.1.0      1.0.0
+
