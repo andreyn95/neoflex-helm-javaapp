@@ -1,0 +1,13 @@
+replicaCount: 3
+
+image:
+  repository: andreyn95/neoflex-k8slab
+  tag: latest
+  pullPolicy: Always
+  pullSecret: dockerhub-secret
+
+service:
+  type: NodePort
+  port: 8080
+  targetPort: 8080
+  nodePort: 30080
