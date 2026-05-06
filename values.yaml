@@ -1,4 +1,4 @@
-replicaCount: 5
+replicaCount: 2
 
 image:
   repository: andreyn95/neoflex-k8slab
@@ -10,4 +10,4 @@ service:
   type: NodePort
   port: 8080
   targetPort: 8080
-  nodePort: 30081
+  nodePort: 32000
