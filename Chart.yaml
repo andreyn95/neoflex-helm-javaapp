@@ -1,6 +1,6 @@
 apiVersion: v2
-name: helm-neoflex-javaapp
-description: Helm chart for Neoflex Java application
+name: gitlab-helm-webapp
+description: Gitlab deploy webapp with helm
 type: application
-version: 0.1.0
-appVersion: "1.0.0"
+version: 0.2.0
+appVersion: "2.0.0"
